@@ -25,7 +25,12 @@ class Robot:
         """处理消息的函数,用于将消息传入小插件中"""
         for plugin in self.plugins:
             print(plugin)
-            plugin.handle(message=message)
+            plugin.handle(msg=message)
+
+    def change_msg(self, data):
+        """格式化msg,将msg转化为json"""
+        msg = json.loads(data["content"]["msg"])
+        return msg
 
     def post_(self, data_):
         """post函数,用于触发事件"""
