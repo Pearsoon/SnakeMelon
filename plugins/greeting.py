@@ -1,7 +1,9 @@
 from plugins import Robot
 
 
-def handle(message):
-    message = message
-    print(message)
-    Robot().say(acceptwxid='wxid_5mqujdbpxfrv22', msg="nihao")
+def handle(msg):
+    if msg["content"]["msg"] == "help":
+        wxid = msg["content"]["from_wxid"]
+        print("help")
+        Robot().say(to_wxid=wxid,msg="******")
+
