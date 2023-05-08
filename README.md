@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <p align="center">
-  <a href="https://v2.nonebot.dev/"><img src="docs/SnakeMelon.png" width="200" height="200" alt="nonebot"></a>
+  <a href="https://github.com/Pears0nLee/SnakeMelon"><img src="docs/SnakeMelon.png" width="200" height="200" alt="nonebot"></a>
 </p>
 
 <div align="center">
