@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <p align="center">
-  <a href="https://github.com/Pears0nLee/SnakeMelon"><img src="docs/SnakeMelonico.PNG" width="200" height="200" alt="SnakeMelon"></a>
+  <a href="https://github.com/Pears0nLee/SnakeMelon"><img src="docs/SnakeMelonico.png" width="200" height="200" alt="SnakeMelon"></a>
 </p>
 
 <div align="center">
