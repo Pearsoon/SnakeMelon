@@ -5,6 +5,7 @@ by Pearson
 6.2 修复签到
 增加走路
 暂时未写异常处理,bug提交https://t.me/+T8ozejX9rnkwZDE1
+https://github.com/Pears0nLee/SnakeMelon
 url#cookie#argus#ladon@
 """
 import os
@@ -246,6 +247,7 @@ if __name__ == "__main__":
     print(f"抖音激素版共获取到{len(cookies)}个账号by Pearson")
     print("bug提交https://t.me/+T8ozejX9rnkwZDE1")
     print("R18黄群不是我的,是内鬼外传改的")
+    print("仓库地址,感谢点赞\nhttps://github.com/Pears0nLee/SnakeMelon")
     i = 1
     for cookie in cookies:
         print(f"---开始第{i}个账号---")
