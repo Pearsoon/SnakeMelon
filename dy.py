@@ -7,6 +7,7 @@ by Pearson
 暂时未写异常处理,bug提交https://t.me/+T8ozejX9rnkwZDE1
 https://github.com/Pears0nLee/SnakeMelon
 url#cookie#argus#ladon@
+url是treasure,或者task/page???ops什么的,问号后面的全部我忘了
 """
 import os
 import time
