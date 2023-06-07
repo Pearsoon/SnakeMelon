@@ -5,6 +5,7 @@ by Pearson
 6.2 修复签到
 增加走路
 暂时未写异常处理,bug提交https://t.me/+T8ozejX9rnkwZDE1
+url#cookie#argus#ladon@
 """
 import os
 import time
