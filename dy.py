@@ -247,7 +247,8 @@ if __name__ == "__main__":
     print(f"抖音激素版共获取到{len(cookies)}个账号by Pearson")
     print("bug提交https://t.me/+T8ozejX9rnkwZDE1")
     print("R18黄群不是我的,是内鬼外传改的")
-    print("仓库地址,感谢点赞\nhttps://github.com/Pears0nLee/SnakeMelon")
+    print("仓库地址,感谢点赞")
+    print("https://github.com/Pears0nLee/SnakeMelon")
     i = 1
     for cookie in cookies:
         print(f"---开始第{i}个账号---")
