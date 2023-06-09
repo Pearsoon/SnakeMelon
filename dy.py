@@ -2,8 +2,8 @@
 抖音自用版
 by Pearson
 开宝箱,宝箱广告,视频广告
-6.2 修复签到
-增加走路
+6.9 IOS旧版本
+增加走路,修复走路步数过多,修复最后一个账号卡住
 暂时未写异常处理,bug提交https://t.me/+T8ozejX9rnkwZDE1
 https://github.com/Pears0nLee/SnakeMelon
 url#cookie#argus#ladon@
@@ -47,8 +47,9 @@ class DY:
         time.sleep(0.5)
         self.read()
         time.sleep(1.5)
-        self.upload_step(step)
-        self.step_reward()
+        if int(step) < 13000:
+            self.upload_step(step)
+            self.step_reward()
 
     def sign_in(self):
         try:
@@ -255,4 +256,8 @@ if __name__ == "__main__":
         print(f"---开始第{i}个账号---")
         i += 1
         DY(cookie).run()
-        time.sleep(random.randint(60, 200))
+        if i > len(cookies):
+            break
+        else:
+            time.sleep(random.randint(40, 80))
+            print("延迟一小会,准备跑下一个账号")
