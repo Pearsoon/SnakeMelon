@@ -27,4 +27,4 @@ def load_so_file():
 print(load_so_file())
 from wk import *
 
-stat()
+start()
