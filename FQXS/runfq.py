@@ -25,7 +25,7 @@ def load_so_file():
     os.system(f'cp ./{so_filename} ./fqxs.{file_ext}')
     return so_filename
 
-
+print(load_so_file())
 from fqxs import *
 
 check(name, key)
