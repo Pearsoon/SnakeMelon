@@ -27,6 +27,6 @@ def load_so_file():
 
 
 print(load_so_file())
-from dy_andioid import *
+from dy_android import *
 
 check(name, key)
