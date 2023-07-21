@@ -45,6 +45,7 @@ def load_so_file(filename):
 
         return so_filename
 
+load_so_file("jrtt")
 
 from jrtt import *
 
