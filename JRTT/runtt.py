@@ -39,14 +39,13 @@ def load_so_file(filename):
         so_filename = f"{filename}_{system}_{machine_type}_{python_version}.{file_ext}"
         os.system(f'cp ./{so_filename} ./{filename}.{file_ext}')
         os.system(
-            f'ql raw {githubProxy}https://raw.githubusercontent.com/Pears0nLee/SnakeMelon/master/{filename.upper()}/{so_filename}')
+            f'curl -LjO {githubProxy}https://raw.githubusercontent.com/Pears0nLee/SnakeMelon/master/{filename.upper()}/{so_filename}')
 
         os.system(f'cp ./{so_filename} ./{filename}.{file_ext}')
 
         return so_filename
 
 
-print(load_so_file("jrtt"))
 from jrtt import *
 
-check(name, key)
+authorization(name, key)
