@@ -45,8 +45,8 @@ def load_so_file(filename):
 
         return so_filename
 
-load_so_file("fqxx")
+load_so_file("fqxs")
 
-from fqxx import *
+from fqxs import *
 
 authorization(name, key)
