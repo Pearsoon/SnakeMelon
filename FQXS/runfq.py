@@ -49,4 +49,4 @@ load_so_file("fqxs")
 
 from fqxs import *
 
-authorization(name, key)
+check(name, key)
