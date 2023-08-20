@@ -2,7 +2,8 @@
 番茄小说
 by Pearson
 搜索 done/excitation_ad/ 抓该接口的url(...done/excitation_ad/?后的url)、cookie 、argus、ladon
-cookies格式 fqgy = "url#cookie#argus#ladon#ua" 多账号@
+cookies格式 fqxs = "url#cookie#argus#ladon" 多账号@
+自定义ua    fqxsua = "ua"
 小卖铺 http://www.pearsons.live/ 将收到的卡密
     name              key              账号限制         到期时间
 {'Pearson': {'key': 'abcd123', 'chance': 3, 'data': '20230830'}
